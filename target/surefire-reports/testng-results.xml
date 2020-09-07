@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5857" started-at="2020-07-29T13:53:49 SGT" finished-at="2020-07-29T13:53:55 SGT">
+    <groups>
+    </groups>
+    <test name="Facebook Test" duration-ms="5857" started-at="2020-07-29T13:53:49 SGT" finished-at="2020-07-29T13:53:55 SGT">
+      <class name="ncs.demo.testcases.DataEntryTest">
+        <test-method status="PASS" signature="dataEntryTest(java.util.Hashtable)[pri:0, instance:ncs.demo.testcases.DataEntryTest@31ea9581]" name="dataEntryTest" duration-ms="5471" started-at="2020-07-29T13:53:49 SGT" data-provider="dp" finished-at="2020-07-29T13:53:54 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{url=https://docs.google.com/forms/d/1xYiK5lKe36ykwzPYff-qkkTaR2N444769GR10Lcpn2A/edit, nric=1234.0, lastname=testlast, nationality=India, firstname=testfirst, dob=1.1111995E7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataEntryTest -->
+      </class> <!-- ncs.demo.testcases.DataEntryTest -->
+    </test> <!-- Facebook Test -->
+  </suite> <!-- Suite -->
+</testng-results>
